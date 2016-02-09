@@ -10,3 +10,5 @@ if [ -n "$SECRET" ]; then
 fi
 
 exec "$@"
+
+/usr/bin/mesos-slave
