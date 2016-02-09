@@ -19,5 +19,5 @@ ENV MESOS_EXECUTOR_REGISTRATION_TIMEOUT 5mins
 
 VOLUME /tmp/mesos
 
-COPY entrypoint.sh /etc/my_init.d
+COPY entrypoint.sh /etc/my_init.d/
 
