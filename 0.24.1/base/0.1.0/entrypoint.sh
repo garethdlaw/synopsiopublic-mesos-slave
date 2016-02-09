@@ -11,4 +11,4 @@ fi
 
 exec "$@"
 
-/usr/bin/mesos-slave
+/usr/sbin/mesos-slave
