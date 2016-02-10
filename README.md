@@ -13,4 +13,4 @@ e.g
 	-v /sys/fs/cgroup:/sys/fs/cgroup \
 	-v /var/run/docker.sock:/var/run/docker.sock \
 	--name slave --net host --privileged --restart always \
-	mesoscloud/mesos-slave:0.24.1-ubuntu-14.04		
+	synopsiopublic/mesos-slave:0.24.1-ubuntu14.04
