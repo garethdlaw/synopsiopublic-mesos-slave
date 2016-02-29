@@ -14,7 +14,7 @@ RUN sudo apt-get install apt-transport-https
 RUN mkdir -p /etc/apt/sources.list.d
 RUN sudo echo deb https://apt.dockerproject.org/repo58 ubuntu-trusty main > /etc/apt/sources.list.d/docker.list
 RUN sudo apt-get update
-RUN sudo apt-get install docker-engine=1.8.3-0~trusty
+RUN sudo apt-get install -y docker-engine=1.8.3-0~trusty
 
 
 CMD ["/usr/sbin/mesos-slave"]
